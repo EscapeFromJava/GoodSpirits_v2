@@ -9,7 +9,7 @@ namespace GoodSpirits_v2
     {
         static void Main()
         {
-            string INPUT = @"C:\Users\PUDGE\Desktop\input.txt";
+            string INPUT = @"input.txt";
             string text = File.ReadAllText(INPUT);
 
             int numberOfLevels = Convert.ToInt32(text[0].ToString()); // считываем кол-во уровней
