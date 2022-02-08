@@ -39,23 +39,29 @@ namespace GoodSpirits_v2
                 }
                 universe.GetLevel(level); // добавляем уровень к вселенной
             }
-            
-            int costs = 0;
+
+            //TODO дописать алгоритм вычисления оптимального пути ?
+
+            #region Algorithm
+
+            /*int costs = 0;
             int minTotalCosts = 0;
-        
-            /*for (int i = 0; i < universe.ListLevels.Count; i++)
+
+            for (int i = 0; i < universe.ListLevels.Count; i++)
             {
                 for (int j = 0; j < universe.ListLevels[i].ListPlanets.Count; j++)
                 {
                     for (int k = 0; k < universe.ListLevels[i].ListPlanets[j].ListTracks.Count; k++)
                     {
-                        if (universe.ListLevels[i].ListPlanets[j].ListTracks[k].NumberPlanetPrevLevel == 0;)
+                        Console.WriteLine(universe.ListLevels[i].ListPlanets[j].ListTracks[k].Costs);
+
                     }
                 }
             }*/
 
+            #endregion
+
             Console.ReadKey();
-            
         }
     }
     
